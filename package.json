@@ -1,0 +1,26 @@
+{
+  "name": "rf-clarity",
+  "description": "R+F Clarity",
+  "version": "0.0.2",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "private": true,
+  "scripts": {
+    "babel": "babel src --out-dir dist",
+    "dev": "gulp dev",
+    "test": ""
+  },
+  "dependencies": {}
+}
