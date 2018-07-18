@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      <%= title %>
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <%- include('./common/header', { header }) %>
+
+    <%- include('./pages/' + name, { data }) %>
+
+    <%- include('./common/footer', { footer }) %>
+  </body>
+
+  <script src="index.js"></script>
+</html>
